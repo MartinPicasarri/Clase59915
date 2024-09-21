@@ -247,3 +247,66 @@ footer {
 }
 
                                                             /*FIN DE FOOTER*/
+
+                                                            /*MEDIDA XS SM*/
+
+@media screen and (max-width: 600px) {
+    header nav{
+        display: inline;
+    }
+    header h1{
+        text-align: center;
+    }
+    header ul li{
+        padding: 0px 10px;
+        font-weight: normal;
+    }
+
+    .contenedor{
+        display: block;
+    }
+
+    .contenedor img{
+        width: 100%;
+    }
+
+    .contenedor p{
+        margin-top: 5px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #grilla {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 230px;
+    }
+    #area1{
+        color: white;
+        line-height: 40px;
+        font-size: 14px;
+        margin-left: 5px;
+        align-content: center;
+    }
+    #area2 img{
+        width: 200px;
+        height:230px;
+        margin-bottom: 100px;
+    }
+    #area3{
+        display: none;
+    }
+}   
