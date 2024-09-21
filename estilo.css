@@ -174,6 +174,25 @@ textarea{
     width: 90%;
 }
 
+                                                            /*FIN DE PESOS*/
+
+                                                            /*CONTACTO*/
+
+.grilla-contacto{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 700px;
+}
+
+.area-lugar{
+    text-align: center;
+}
+
+.area-lugar iframe{
+    width: 90%;
+    height: 600px;
+}
+
 
 
 
