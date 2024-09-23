@@ -254,9 +254,11 @@ footer {
     header nav{
         display: inline;
     }
+    
     header h1{
         text-align: center;
     }
+    
     header ul li{
         padding: 0px 10px;
         font-weight: normal;
@@ -273,6 +275,14 @@ footer {
     .contenedor p{
         margin-top: 5px;
         text-align: center;
+    }
+
+    .area-dos{
+        justify-self: center;
+    }
+   
+    .area-dos form{
+        width: 250px;
     }
 
 
