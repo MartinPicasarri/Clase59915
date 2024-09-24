@@ -265,6 +265,7 @@ footer {
 
     .contenedor{
         display: block;
+        height: 930px;
     }
 
     .contenedor img{
@@ -276,6 +277,16 @@ footer {
         text-align: center;
     }
 
+    h3{
+        text-align: center;
+    }
+
+    .grilla-metodos{
+        grid-template-columns: 100%;
+        grid-template-rows: 460px 300px;
+        height: 900px;
+    }
+    
     .area-dos{
         justify-self: center;
     }
@@ -283,7 +294,7 @@ footer {
     .area-dos form{
         width: 250px;
     }
-
+    
     .grilla-pesos{
         display: grid;
         grid-template-columns: 100%;
