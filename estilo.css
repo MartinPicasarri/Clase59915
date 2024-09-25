@@ -269,6 +269,7 @@ footer {
     .contenedor{
         display: block;
         height: 1130px;
+        margin-bottom: 155px;
     }
 
     .contenedor img{
@@ -286,7 +287,7 @@ footer {
 
     .grilla-metodos{
         grid-template-columns: 100%;
-        grid-template-rows: 580px 430px;
+        grid-template-rows: 610px 430px;
     }
     
     .area-dos form{
