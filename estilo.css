@@ -257,6 +257,10 @@ footer {
         text-align: center;
     }
     
+    header ul{
+        text-align: center;
+    }
+
     header ul li{
         padding: 0px 10px;
         font-weight: normal;
@@ -264,7 +268,7 @@ footer {
 
     .contenedor{
         display: block;
-        height: 930px;
+        height: 1130px;
     }
 
     .contenedor img{
@@ -282,16 +286,13 @@ footer {
 
     .grilla-metodos{
         grid-template-columns: 100%;
-        grid-template-rows: 460px 300px;
-        height: 900px;
+        grid-template-rows: 580px 430px;
     }
     
-    .area-dos{
-        justify-self: center;
-    }
-   
     .area-dos form{
-        width: 50%;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     
     .grilla-pesos{
