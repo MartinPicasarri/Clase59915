@@ -1,5 +1,4 @@
 body {
-    position: relative;
     background-color: rgb(185, 219, 248);
     padding-bottom: 80px;
     margin: 0;
@@ -292,7 +291,7 @@ footer {
     }
    
     .area-dos form{
-        width: 250px;
+        width: 50%;
     }
     
     .grilla-pesos{
@@ -350,7 +349,7 @@ footer {
         align-content: center;
     }
     #area2 img{
-        width: 200px;
+        width: 40%;
         height:230px;
         margin-bottom: 100px;
     }
