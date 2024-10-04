@@ -28,6 +28,42 @@ a:hover {
   color: aqua;
 }
 
+footer {
+  background-color: black;
+  width: 100%;
+  height: 230px;
+}
+
+#grilla {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 300px;
+}
+
+#area1 {
+  color: white;
+  line-height: 60px;
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+#area2 {
+  text-align: center;
+}
+
+#area2 img {
+  width: 300px;
+  height: 230px;
+  margin-bottom: 100px;
+}
+
+#area3 {
+  inline-size: min-content;
+  line-height: 2;
+  text-align: center;
+  margin-top: 10px;
+}
+
 body {
   background-color: rgb(185, 219, 248);
   padding-bottom: 80px;
@@ -200,138 +236,5 @@ textarea {
 }
 
 /*FIN DE COTACTO*/
-/*FOOTER*/
-footer {
-  background-color: black;
-  width: 100%;
-  height: 230px;
-}
-
-#grilla {
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 300px;
-}
-
-#area1 {
-  color: white;
-  line-height: 60px;
-  margin-left: 15px;
-  font-size: 17px;
-}
-
-#area2 {
-  text-align: center;
-}
-
-#area2 img {
-  width: 300px;
-  height: 230px;
-  margin-bottom: 100px;
-}
-
-#area3 {
-  inline-size: min-content;
-  line-height: 2;
-  text-align: center;
-  margin-top: 10px;
-}
-
-/*FIN DE FOOTER*/
-/*MEDIDA XS SM*/
-@media screen and (max-width: 600px) {
-  header nav {
-    display: inline;
-  }
-  header h1 {
-    text-align: center;
-  }
-  header ul {
-    text-align: center;
-  }
-  header ul li {
-    padding: 0px 10px;
-    font-weight: normal;
-  }
-  .contenedor {
-    display: block;
-    height: 1130px;
-    margin-bottom: 156px;
-  }
-  .contenedor img {
-    width: 100%;
-  }
-  .contenedor p {
-    margin-top: 5px;
-    text-align: center;
-  }
-  h3 {
-    text-align: center;
-  }
-  .grilla-metodos {
-    grid-template-columns: 100%;
-    grid-template-rows: 611px 430px;
-  }
-  .area-dos form {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .grilla-pesos {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 700px;
-    margin-top: 70px;
-  }
-  .tabla {
-    text-align: center;
-  }
-  .tabla img {
-    width: 100%;
-  }
-  .aside {
-    display: none;
-  }
-  .grilla-contacto {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 500px 500px;
-    margin-top: 0;
-  }
-  .area-lugar iframe {
-    width: 100%;
-    height: 500px;
-  }
-  .area-lugar2 {
-    align-items: center;
-    background-color: transparent;
-    margin-top: 0;
-    line-height: 30px;
-    font-size: 27px;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  #grilla {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 230px;
-  }
-  #area1 {
-    color: white;
-    line-height: 40px;
-    font-size: 14px;
-    margin-left: 5px;
-    align-content: center;
-  }
-  #area2 img {
-    width: 40%;
-    height: 230px;
-    margin-bottom: 100px;
-  }
-  #area3 {
-    display: none;
-  }
-}
 
 /*# sourceMappingURL=styles.css.map */
