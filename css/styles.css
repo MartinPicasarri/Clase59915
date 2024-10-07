@@ -126,10 +126,10 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.grilla-metodos {
+.grilla-metodos, .grilla-contacto {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 500px;
+  grid-template-rows: 600px;
 }
 
 .area-uno {
@@ -218,9 +218,6 @@ textarea {
 /*FIN DE PESOS*/
 /*CONTACTO*/
 .grilla-contacto {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 600px;
   margin-top: 70px;
 }
 
@@ -275,7 +272,7 @@ textarea {
   h3 {
     text-align: center;
   }
-  .grilla-metodos {
+  .grilla-metodos, .grilla-contacto {
     grid-template-columns: 100%;
     grid-template-rows: 611px 430px;
   }

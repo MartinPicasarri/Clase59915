@@ -64,7 +64,7 @@ h3{
 .grilla-metodos{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 500px;
+    grid-template-rows: 600px;
 }
 
 .area-uno{
@@ -156,9 +156,7 @@ textarea{
                                                             /*CONTACTO*/
 
 .grilla-contacto{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 600px;
+    @extend .grilla-metodos;
     margin-top: 70px;
 }
 
