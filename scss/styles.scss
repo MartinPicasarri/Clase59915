@@ -50,6 +50,46 @@ main h2 {
     height: 600px;
     margin-top: 70px;
 }
+
+.productos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px 400px;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+@mixin producto($ancho, $alto, $borde){
+    width: $ancho;
+    height: $alto;
+    border: $borde;
+}
+
+.foto1 img{
+    @include producto(600px,300px, solid black)
+}
+
+.foto2 img{
+    @include producto(600px,300px, solid blue)
+}
+
+.foto3 img{
+    @include producto(600px,300px, solid blue)
+}
+
+.foto4 img{
+    @include producto(600px,300px, solid black)
+}
+
+.foto5 img{
+    @include producto(600px,300px, solid black)
+}
+
+.foto6 img{
+    @include producto(600px,300px, solid blue)
+}
+
                                                             /*FIN DE PRODUCTOS*/
 
                                                             /*VENTAS*/
