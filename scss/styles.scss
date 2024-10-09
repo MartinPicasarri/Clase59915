@@ -90,6 +90,14 @@ main h2 {
     @include producto(600px,300px, solid blue)
 }
 
+.productos img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.productos img:hover{
+    transform: scale(1.2);
+}
+
                                                             /*FIN DE PRODUCTOS*/
 
                                                             /*VENTAS*/
@@ -254,6 +262,30 @@ textarea{
     .contenedor p{
         margin-top: 5px;
         text-align: center;
+    }
+    
+    .foto1 img{
+        @include producto(90%,300px, solid black)
+    }
+    
+    .foto2 img{
+        @include producto(90%,300px, solid blue)
+    }
+    
+    .foto3 img{
+        @include producto(90%,300px, solid blue)
+    }
+    
+    .foto4 img{
+        @include producto(90%,300px, solid black)
+    }
+    
+    .foto5 img{
+        @include producto(90%,300px, solid black)
+    }
+    
+    .foto6 img{
+        @include producto(90%,300px, solid blue)
     }
 
     h3{

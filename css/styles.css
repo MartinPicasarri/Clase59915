@@ -162,6 +162,14 @@ main h2 {
   border: solid blue;
 }
 
+.productos img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.productos img:hover {
+  transform: scale(1.2);
+}
+
 /*FIN DE PRODUCTOS*/
 /*VENTAS*/
 h3 {
@@ -313,6 +321,36 @@ textarea {
   .contenedor p {
     margin-top: 5px;
     text-align: center;
+  }
+  .foto1 img {
+    width: 90%;
+    height: 300px;
+    border: solid black;
+  }
+  .foto2 img {
+    width: 90%;
+    height: 300px;
+    border: solid blue;
+  }
+  .foto3 img {
+    width: 90%;
+    height: 300px;
+    border: solid blue;
+  }
+  .foto4 img {
+    width: 90%;
+    height: 300px;
+    border: solid black;
+  }
+  .foto5 img {
+    width: 90%;
+    height: 300px;
+    border: solid black;
+  }
+  .foto6 img {
+    width: 90%;
+    height: 300px;
+    border: solid blue;
   }
   h3 {
     text-align: center;
