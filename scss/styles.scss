@@ -349,6 +349,10 @@ textarea{
         place-items: center;
     }
 
+    #area1 p {
+        font-size: 13px;
+    }
+
     #area2 {
         grid-column: span 1;
     }
@@ -363,10 +367,6 @@ textarea{
 
     #area3 ul li{
         padding: 0px 10px;
-    }
-
-    #area1 p {
-        font-size: 14px;
     }
 }   
 
