@@ -345,23 +345,28 @@ textarea{
     }   
 
     #grilla {
-        display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-rows: 230px;
+        grid-template-columns: 1fr;
+        place-items: center;
     }
-    #area1{
-        color: $colorletra;
-        line-height: 40px;
-        font-size: 14px;
-        margin-left: 5px;
-        align-content: center;
+
+    #area2 {
+        grid-column: span 1;
     }
-    #area2 img{
-        width: 40%;
-        height:230px;
-        margin-bottom: 100px;
-    }
+
     #area3{
-        display: none;
+        align-items: center;
+    }
+
+    #area3 ul li a {
+        font-size: 14px;
+    }
+
+    #area3 ul li{
+        padding: 0px 10px;
+    }
+
+    #area1 p {
+        font-size: 14px;
     }
 }   
+

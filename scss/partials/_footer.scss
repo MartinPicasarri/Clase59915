@@ -1,8 +1,8 @@
 footer {
     margin: 0px;
     background-color: #2c3e50;
-    color: #ecf0f1;
-    padding: 20px 0;
+    color: $colorletra;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -22,18 +22,32 @@ footer {
     align-items: center;
 }
 
+#area1{
+    display: inline-block;
+    width: max-content;
+}
+
 #area1 p {
     margin: 5px 0;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #area1 p a {
-    color: #ecf0f1;
+    color: $colorletra;
     text-decoration: none;
 }
 
 #area2 img {
     max-width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#area2 img:hover {
+    transform: scale(1.2);
+}
+
+#area3{
+    width: max-content;
 }
 
 #area3 ul {
@@ -47,10 +61,10 @@ footer {
 
 #area3 ul li a {
     text-decoration: none;
-    color: #ecf0f1;
-    font-size: 16px;
+    color: $colorletra;
+    font-size: 20px;
 }
 
 #area3 ul li a:hover {
-    color: #1abc9c;
+    color: aqua;
 }
